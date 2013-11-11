@@ -2,11 +2,11 @@
 
 You will need to create a grunt-aws.json file with your s3 key, secret and bucket
 
-{
-  "key": "your key",
-  "secret": "your secret",
-  "bucket": "your bucket name"
-}
+    {
+      "key": "your key",
+      "secret": "your secret",
+      "bucket": "your bucket name"
+    }
 
 Some things the Gruntfile does:
 
