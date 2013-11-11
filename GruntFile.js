@@ -235,6 +235,8 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-docco');
   grunt.loadNpmTasks('grunt-styleguide');
   grunt.loadNpmTasks('grunt-s3');
+  // if you want growl notifications
+  //grunt.loadNpmTasks('grunt-notify');
 
   // install grunt dependencies task
   grunt.registerTask('install', [

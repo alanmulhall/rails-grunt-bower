@@ -33,6 +33,7 @@
     "grunt-rev": "~0.1.0",
     "grunt-docco": "~0.3.0",
     "grunt-styleguide": "~0.2.12",
-    "grunt-s3": "~0.2.0-alpha.3"
+    "grunt-s3": "~0.2.0-alpha.3",
+    "grunt-notify": "~0.2.16"
   }
 }
