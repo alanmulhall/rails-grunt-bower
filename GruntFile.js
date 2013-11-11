@@ -43,7 +43,7 @@ module.exports = function(grunt) {
       },
       dist: {
         files: {
-          'public/stylesheets/<%= pkg.name %>.min.js': ['<%= concat.dist.dest %>']
+          'public/javascripts/<%= pkg.name %>.min.js': ['<%= concat.dist.dest %>']
         }
       }
     },
