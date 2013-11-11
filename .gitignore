@@ -19,3 +19,4 @@ env_variables.rb
 .DS_Store
 .sass-cache/
 grunt-aws.json
+metrics/*
