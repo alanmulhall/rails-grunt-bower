@@ -255,7 +255,6 @@ module.exports = function(grunt) {
     'clean:dist',
     'jshint',
     'plato',
-    'jasmine',
     'karma'
   ]);
 
