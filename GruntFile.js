@@ -260,7 +260,7 @@ module.exports = function(grunt) {
 
   // build task for production assets
   grunt.registerTask('prod', [
-    'clean',
+    'clean:dist',
     'compass:dist',
     'concat',
     'uglify',
