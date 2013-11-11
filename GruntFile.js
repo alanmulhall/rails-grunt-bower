@@ -90,7 +90,7 @@ module.exports = function(grunt) {
       },
     },
 
-    // not being used - left here as an example
+    // Not being used - left here as an example
     jasmine: {
       coverage: {
         src: ['app/assets/javascripts/site/*.js'],
