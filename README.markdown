@@ -14,6 +14,8 @@ You will need to create a grunt-aws.json file with your s3 key, secret and bucke
 1. Have node.js and npm install
 2. Add grunt-aws.json
 3. npm install -g grunt-cli
+4. npm install -g bower
+5. bower install
 
 **Some things the Gruntfile does:**
 
