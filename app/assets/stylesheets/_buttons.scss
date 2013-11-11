@@ -1,0 +1,63 @@
+// Button Styles
+// =============
+
+// As a convention, buttons should only be used for actions while hyperlinks are to be used for objects. For instance, "Download" should be a button while "recent activity" should be a link.
+// Button styles can be applied to anything with the `btn` class applied. However, typically you'll want to apply these to only `a` and `button` elements.
+
+// Base styles
+// ===========
+
+// Standard gray button with gradient
+//
+//    <button class="btn">Default</button>
+.btn {
+  display: inline-block;
+  padding: 4px 10px 4px;
+  margin-bottom: 0; // For input.btn
+  color: $gray_dark;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(255,255,255,.75);
+  vertical-align: middle;
+  border: 1px solid #ccc;
+  border-bottom-color: #bbb;
+  cursor: pointer;
+}
+
+// States
+// ------
+// Hover state
+
+//    <button class="btn :hover">Default</button>
+.btn:hover {
+  color: $gray_dark;
+  text-decoration: none;
+  background-color: blue; 
+  background-position: 0 -15px;
+
+}
+
+// Focus state for keyboard and accessibility
+
+//    <button class="btn :focus">Default</button>
+.btn:focus {
+
+}
+
+//    <button class="btn active">Active</button>
+.btn.active,
+.btn:active {
+  background-image: none;
+  background-color: darken($white, 10%);
+  background-color: darken($white, 15%);
+  outline: 0;
+}
+
+// Add the `disabled` class to links and the `disabled` attribute for `button` elements.
+
+//    <button class="btn" disabled>Disabled</button>  
+.btn.disabled,
+.btn[disabled] {
+  cursor: default;
+  background-image: none;
+  background-color: darken($white, 10%);
+}
