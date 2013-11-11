@@ -1,4 +1,4 @@
-Quick Prototype of using Grunt and Bower with Rails
+Quick Prototype using Grunt and Bower with Rails
 --------
 
 You will need to create a grunt-aws.json file with your s3 key, secret and bucket
