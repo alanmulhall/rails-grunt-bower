@@ -14,3 +14,4 @@ var My = {
       return Math.exp(Math.log(x)/2);
   }
 };
+
