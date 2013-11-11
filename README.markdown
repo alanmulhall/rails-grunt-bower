@@ -1,4 +1,5 @@
-== Quick Prototype of using Grunt and Bower with Rails
+Quick Prototype of using Grunt and Bower with Rails
+--------
 
 You will need to create a grunt-aws.json file with your s3 key, secret and bucket
 
@@ -8,7 +9,7 @@ You will need to create a grunt-aws.json file with your s3 key, secret and bucke
       "bucket": "your bucket name"
     }
 
-Some things the Gruntfile does:
+**Some things the Gruntfile does:**
 
 1. Runs jshint, code coverage and code quality for Javascript
 2. Concats and minifies Javascript
