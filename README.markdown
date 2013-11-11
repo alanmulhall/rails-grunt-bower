@@ -8,6 +8,11 @@ You will need to create a grunt-aws.json file with your s3 key, secret and bucke
       "secret": "your secret",
       "bucket": "your bucket name"
     }
+    
+**You will need to:**
+1. Have node.js and npm install
+2. Add grunt-aws.json
+3. npm install -g grunt-cli
 
 **Some things the Gruntfile does:**
 
