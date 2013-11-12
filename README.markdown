@@ -1,6 +1,8 @@
 Quick Prototype using Grunt and Bower with Rails
 --------
 
+![Grunt](grunt.png)
+![Bower](bower.png)
 You will need to create a grunt-aws.json file with your s3 key, secret and bucket
 
     {
@@ -8,7 +10,7 @@ You will need to create a grunt-aws.json file with your s3 key, secret and bucke
       "secret": "your secret",
       "bucket": "your bucket name"
     }
-    
+
 **You will need to:**
 
 1. Have node.js and npm install
